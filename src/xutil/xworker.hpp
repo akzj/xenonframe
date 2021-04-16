@@ -1,6 +1,7 @@
 #pragma once
 #include <thread>
 #include <iostream>
+#include <functional>
 #include "sync_queue.hpp"
 namespace xutil
 {

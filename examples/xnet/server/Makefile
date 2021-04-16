@@ -7,7 +7,7 @@ CFLAGS = -g -W \
 -Wformat \
 -Winvalid-pch \
 -std=c++11 \
--I ./../../include
+-I ../../../src
 run:server
 	./server
 server:rm_server

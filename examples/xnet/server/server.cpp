@@ -1,4 +1,4 @@
-#include "xnet\xnet.hpp"
+#include "xnet/xnet.hpp"
 #include <fstream>
 int main()
 {
@@ -47,7 +47,7 @@ int main()
 		return true;//repeat timer
 	});
 
-	acceptor.bind("0.0.0.0", 16504);
+	acceptor.bind("0.0.0.0", 5504);
 	proactor.run();
 
 	return 0;
